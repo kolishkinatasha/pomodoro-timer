@@ -1,0 +1,61 @@
+:root {
+  --red: #bc414a;
+  --green: #353f35;
+}
+
+* {
+  font-family: Roboto;
+}
+
+body {
+  background-color: #30384b;
+  background-image: url('../../images/CoolSmoggyIndochinesetiger-size_restricted-1.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #eee;
+}
+
+main {
+  padding-top: 50px;
+  max-width: 340px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.8);
+  border: none;
+  display: inline-block;
+  width: 100px;
+}
+
+button.with-text {
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1.4rem;
+  line-height: 36px;
+  cursor: pointer;
+}
+
+button.with-text svg{
+  width: 36px;
+  float: left;
+  margin-right: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35%;
+}
